@@ -514,6 +514,11 @@ a {
 }
 .client-icon {
   border: 1px solid #afb1b8;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 32px;
+  padding-right: 32px;
+  align-items: center;
 }
 .client-icon:not(:last-child) {
   margin-right: 30px;
