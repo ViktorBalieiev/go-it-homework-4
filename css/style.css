@@ -509,7 +509,8 @@ a {
   padding-bottom: 50px;
 }
 
-.clients-svg {
+.client-svg {
+  fill: #afb1b8;
 }
 .client-icon {
   border: 1px solid #afb1b8;
@@ -519,7 +520,5 @@ a {
 }
 
 .client-icon:hover {
-  color: white;
   background-color: var(--accent-text-color);
-  fill: white;
 }
