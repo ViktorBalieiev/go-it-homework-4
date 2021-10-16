@@ -196,14 +196,15 @@ a {
 }
 
 .logo-hero:hover {
-  fill: white;
-}
-.logo-hero:hover {
   background-color: var(--accent-text-color);
 }
-.logo-icon {
-  fill: #ffffff;
+
+.logo-icon:hover {
+  align-items: center;
+  justify-content: center;
+  fill: white;
 }
+
 .logo-hero {
   width: 100%;
   height: 100%;
@@ -211,7 +212,6 @@ a {
   align-items: center;
   justify-content: center;
   border-radius: 50%;
-  background-color: #ffffff;
 }
 
 .logo-flex {
@@ -491,6 +491,7 @@ a {
 .clients {
   margin-top: 94px;
   margin-bottom: 94px;
+  background: #ffffff;
 }
 .clients-ul {
   display: flex;
@@ -513,17 +514,25 @@ a {
   fill: #afb1b8;
 }
 .client-icon {
-  border: 1px solid #afb1b8;
-  padding-top: 16px;
-  padding-bottom: 16px;
-  padding-left: 32px;
-  padding-right: 32px;
   align-items: center;
+  border: 1px solid #afb1b8;
+  box-sizing: border-box;
+  border-radius: 4px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  padding-left: 54px;
+  padding-right: 54px;
+}
+
+.client-icon:hover {
+  border: 1px solid;
+  box-sizing: border-box;
+  border-radius: 4px;
+  color: var(--accent-text-color);
 }
 .client-icon:not(:last-child) {
   margin-right: 30px;
 }
-
-.client-icon:hover {
-  background-color: var(--accent-text-color);
+.client-svg:hover {
+  fill: var(--accent-text-color);
 }
